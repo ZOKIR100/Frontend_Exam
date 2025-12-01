@@ -1,0 +1,41 @@
+.business-text h3{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #592EA9;
+    margin-left: 40px;
+}
+.business-text h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0;
+    color: #232536;
+    margin-left: 40px;
+}
+.business-text p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0;
+    color: #6D6E76;
+    margin-left: 30px;
+}
+@media (max-width:768px) {
+    .swiper{
+        flex-direction: column;
+        align-items: center;
+    }
+    .img img{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-width:470px) {
+    .img img{
+        width: 100%;
+        height: auto;
+    }
+}

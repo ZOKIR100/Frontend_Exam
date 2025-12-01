@@ -1,0 +1,58 @@
+
+.business h2 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 0;
+    color: #232536;
+    text-align: center;
+    padding: 70px 0 0;
+}
+
+.business p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0;
+    color: #6D6E76;
+    text-align: center;
+}
+.business h5{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #232536;
+    text-align: center;
+    margin-top: 30px;
+}
+.pink{
+    background-color: #F4F0F8;
+    height: 348px;
+}
+.input {
+  width: 1300px;
+  padding: 18px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #3b82f6;
+}
+@media (max-width:992px) {
+    .input{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-width:420px) {
+    .business h2{
+        font-size: 40px;
+    }
+}

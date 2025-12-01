@@ -1,0 +1,68 @@
+.start{
+    max-width: 800px;
+}
+.start h3{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 3;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 110px 0 0 0;
+}
+.start span{
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.start h1{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 0;
+    color: #fff;
+}
+.start .west{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0;
+    color: #fff;
+}
+.start .james{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0;
+    color: #FFD050;
+    text-transform: capitalize;
+}
+.start .dolor{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0;
+    color: #fff;
+}
+.start .read{
+    padding: 10px 40px;
+    background-color: #FFD050;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0;
+    color: #232536;
+    border: none;
+}
+.start .read:hover{
+    background-color: yellow;
+}
+.background{
+    background-image: url("/images/6da6c3e50ef0427f95f95d6c279b57dcfb8178ef (1).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+}

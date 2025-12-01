@@ -12,34 +12,31 @@ const Header = () => {
     }
     return (
         <>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                <div className="container">
-                    <a className="navbar-brand" href="#">Navbar</a>
+        <div className="black">
+            <nav className="navbar navbar-expand-lg navbar-light">
+                <div className="container d-flex justify-content-between align-items-center">
+                    <a className="navbar-brand" href="#"><img src="/images/Logo (9) (1).png" alt="" /></a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon" />
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                        <ul className="navbar-nav ">
                             <li className="nav-item">
-                                <NavLink to="/" className={`nav-link ({isActive})=>isActive?"nav-link active:""`}>Home</NavLink>
-                            </li>
-                            <li className="nav-item">
-                                <NavLink to="/link" className="nav-link">Link</NavLink>
+                                <NavLink to="/" className={`nav-link text-white ({isActive})=>isActive?"nav-link active:""`}>{t("home")}</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink to="/disabled" className="nav-link">Disabled</NavLink>
+                                <NavLink to="/blog" className="nav-link text-white">{t("blog")}</NavLink>
+                            </li>
+                            <li className="nav-item">
+                                <NavLink to="/about us" className="nav-link text-white text-nowrap">{t("about us")}</NavLink>
                             </li>
                              <li className="nav-item">
-                                <NavLink to="/service" className="nav-link">Service</NavLink>
+                                <NavLink to="/register" className="nav-link text-white">{t("registr")}</NavLink>
                             </li>
-                             <li className="nav-item">
-                                <NavLink to="/hero" className="nav-link">Hero</NavLink>
-                            </li>
-                             <li className="nav-item">
-                                <NavLink to="/disabled" className="nav-link">Disabled</NavLink>
-                            </li>
+                            
+                            <button className='register'>{t("registr")}</button>
                         </ul>
-                         <div className="dropdown d-flex align-items-center">
+                         <div className="dropdown d-flex align-items-center gap-2 mx-2">
                                 {/* {localStorage.getItem("lang")} */}
                             <button className={lang === "uz" ? "active-lang" : ""} onClick={() => changeLanguage("uz")}>UZ</button>
                                 <div className="line"></div>
@@ -50,6 +47,7 @@ const Header = () => {
                     </div>
                 </div>
             </nav>
+        </div>
         </>
     )
 }

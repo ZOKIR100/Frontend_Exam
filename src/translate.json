@@ -1,19 +1,104 @@
 {
     "ru": {
         "translation": {
-            "link":"Link"
+            "home":"Главная",
+            "blog":"Блог",
+            "about us":"О нас",
+            "registr":"Регистр",
+            "post":"Опубликовано в запуске",
+            "step":"Пошаговое руководство по выбору отличных пар шрифтов",
+            "james":"James West | 23 мая 2022 г.",
+            "fugiat":"Тот, кто причиняет боль другим в погоне за удовольствием, заслуживает осуждения, как и тот, кто избегает трудностей, когда долг призывает. За исключением случаев, когда обязательства или необходимость диктуют иное, не следует потакать прихотям и избегать ответственности.",
+            "read":"Читать далее",
+            "popular":"Популярные блоги",
+            "john":"By John Doe l Aug 23, 2021",
+            "study":"UX Кейс-стади, создающий студийную среду для студентов:",
+            "choose":"Выберите категорию",
+            "business":"Бизнес",
+            "start":"Стартап",
+            "economy":"Экономика",
+            "technology":"Технология",
+            "free":"Топ-6 бесплатных инструментов для создания макетов веб-сайтов 2022",
+            "vision":"Наша миссиона",
+            "content":"Создание ценного контента для творцов по всему миру",
+            "mision":"Наше видение",
+            "improve":"Платформа, которая позволяет людям улучшать свои навыки",
+            "group":"Наша команда творцов",
+            "started":"Почему мы запустили этот Блог",
+            "name":"Имя",
+            "last":"Фамилия",
+            "user":"Имя пользователя",
+            "code":"Пароль",
+            "codee":"Подтвердить пароль"
+            
         }
     },
 
     "en": {
         "translation": {
-            "link":"linkk"
+            "home":"Home",
+            "blog":"Blog",
+            "about us":"About Us",
+            "registr":"Register",
+            "post":"Posted on startup",
+            "step":"Step-by-step guide to choosing great font pairs",
+            "james":"By James West | May 23, 2022",
+            "fugiat":"Duis aute irure dolor in reprehenderit in voluptate velit esse\ncillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+            "read":"Read More",
+            "popular":"Popular blogs",
+            "john":"By John Doe l Aug 23, 2021",
+            "study":"A UX Case Study Creating a Studious Environment for Students:",
+            "choose":"Choose A Catagory",
+            "business":"Business",
+            "start":"Startup",
+            "economy":"Economy",
+            "technology":"Technology",
+            "free":"Top 6 free website mockup tools 2022",
+            "vision":"Our mision",
+            "content":"Creating valuable content for creatives all around the world",
+            "mision":"Our Vision",
+            "improve":"A platform that empowers individuals to improve",
+            "group":"Our team of creatives",
+            "started":"Why we started this Blog",
+            "name":"Firstname",
+            "last":"Lastname",
+            "user":"Username",
+            "code":"Password",
+            "codee":"Confirm password"
         }
     },
 
      "uz": {
         "translation": {
-            "link":"ilova"
+            "home":"Uy",
+            "blog":"Blog",
+            "about us":"Biz haqimizda",
+            "registr":"Kirish",
+            "post":"Ishga tushirilganda joylangan",
+            "step":"Ajoyib shrift juftliklarini tanlash bo‘yicha bosqichma-bosqich qo‘llanma",
+            "james":"Muallif: James West | 2022-yil 23-may",
+            "fugiat":"Rohatlanish istagi yo‘lida qilingan xatti-harakatlar uchun azob chekish va qiyinchiliklarga duch kelish mumkin. Bunday holatlarda hech qanday mas’uliyatni o‘z zimmangizga olmasligingiz kerak. Beparvolik qilish va loqaydlik bilan qarash mumkin emas.",
+            "read":"Batafsil",
+            "popular":"Ommabop bloglar",
+            "john":"Muallif: John Doe l 2021-yil 23-avgust",
+            "study":"Talabalar uchun qulay o‘quv muhitini yaratish bo‘yicha UX misoli:",
+            "choose":"Turkumni tanlang",
+            "business":"Biznes",
+            "start":"Ishga tushirish",
+            "economy":"Iqtisod",
+            "technology":"Texnologiya",
+            "free":"Top 6 bepul veb-sayt maket vositalari 2022",
+            "vision":"Bizning missiyamiz",
+            "content":"Butun dunyo ijodkorlari uchun qimmatli kontent yaratish",
+            "mision":"Bizning nigohimiz",
+            "improve":"Shaxslarga yaxshilanish imkonini beruvchi platforma",
+            "group":"Ijodkorlar jamoamiz",
+            "started":"Nima uchun bu blogni boshladik",
+            "name":"Ismi",
+            "last":"Familiya",
+            "user":"Foydalanuvchi nomi",
+            "code":"Parol",
+            "codee":"Parolni tasdiqlash"
         }
     }
 }
