@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.active{
+
+.active {
     color: red !important;
     position: relative !important;
 }
 
-.active::after{
+.active::after {
     display: inline-block !important;
     content: "";
     position: absolute;
@@ -18,4 +20,21 @@
     background-color: red;
     bottom: 3px;
     left: 0;
+}
+
+
+@media (max-width:990px) {
+    .nav-item .active::after {
+        transform: scaleX(0) !important;
+        display: none !important;
+    }
+    .nav-link.active{
+        color: red !important;
+    }
+
+    .register {
+        margin-top: 20px;
+        margin-left: -2px !important;
+    }
+    
 }

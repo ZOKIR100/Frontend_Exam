@@ -34,7 +34,6 @@ const Header = () => {
                                 <NavLink to="/register" className="nav-link text-white">{t("registr")}</NavLink>
                             </li>
                             
-                            <button className='register'>{t("registr")}</button>
                         </ul>
                          <div className="dropdown d-flex align-items-center gap-2 mx-2">
                                 {/* {localStorage.getItem("lang")} */}
@@ -44,6 +43,7 @@ const Header = () => {
                                 <div className="line"></div>
                             <button  className={lang === "en" ? "active-lang" : ""} onClick={() => changeLanguage("en")}>EN</button>
                         </div>
+                         <button className='register'>{t("registr")}</button>
                     </div>
                 </div>
             </nav>
